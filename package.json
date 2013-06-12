@@ -1,0 +1,26 @@
+{
+    "name": "publicize",
+    "version": "1.0.0",
+    "description": "Import an object's fields into the public scope.",
+    "homepage": "http://github.com/rtfeldman/publicize",
+    "author": {
+        "name": "Richard Feldman",
+        "email": "richard.t.feldman@gmail.com",
+        "url": "http://github.com/rtfeldman"
+    },
+    "bugs": {
+        "url": "http://github.com/rtfeldman/publicize/issues",
+        "email": "richard.t.feldman@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/rtfeldman/publicize.git"
+    },
+    "licenses": {
+        "type": "MIT",
+        "url": "git://github.com/rtfeldman/publicize/LICENSE"
+    },
+    "engines": {
+        "node": ">=0.6.0"
+    }
+}

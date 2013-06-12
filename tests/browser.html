@@ -1,0 +1,20 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="../publicize.js"></script>
+    </head>
+    <body>
+        <p>The test failed.</p>
+        <script>
+            var obj = {
+                reportSuccess: function() {
+                    document.body.innerHTML = "<p>The test passed!</p>";
+                }
+            };
+
+            publicize(obj);
+
+            reportSuccess();
+        </script>
+    </body>
+</html>
